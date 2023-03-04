@@ -2,18 +2,18 @@
 channel: stable
 addons:
   otelcol:
-    repository: cedricziel/ha-addon-otelcol
+    repository: mcinnes01/ha-addon-otelcol
     target: otelcol
-    image: ghcr.io/cedricziel/{arch}-ha-addon-otelcol
+    image: ghcr.io/mcinnes01/{arch}-ha-addon-otelcol
   loki:
-    repository: cedricziel/ha-addon-grafana-loki
+    repository: mcinnes01/ha-addon-grafana-loki
     target: loki
-    image: ghcr.io/cedricziel/{arch}-addon-grafana-loki
+    image: ghcr.io/mcinnes01/{arch}-addon-grafana-loki
   mimir:
-    repository: cedricziel/ha-addon-grafana-mimir
+    repository: mcinnes01/ha-addon-grafana-mimir
     target: mimir
-    image: ghcr.io/cedricziel/{arch}-addon-grafana-mimir
+    image: ghcr.io/mcinnes01/{arch}-addon-grafana-mimir
   tempo:
-    repository: cedricziel/ha-addon-grafana-tempo
+    repository: mcinnes01/ha-addon-grafana-tempo
     target: tempo
-    image: ghcr.io/cedricziel/{arch}-addon-grafana-tempo
+    image: ghcr.io/mcinnes01/{arch}-addon-grafana-tempo

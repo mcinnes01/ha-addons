@@ -3,7 +3,7 @@ arch:
 - aarch64
 - amd64
 description: Bring the OpenTelemetry collector into your home
-image: ghcr.io/cedricziel/{arch}-ha-addon-otelcol
+image: ghcr.io/mcinnes01/{arch}-ha-addon-otelcol
 init: false
 map:
 - share:rw
@@ -26,6 +26,6 @@ ports_description:
 schema:
   config: str
 slug: otelcol
-url: https://github.com/cedricziel/ha-addon-otelcol
+url: https://github.com/mcinnes01/ha-addon-otelcol
 version: 0.10.1
 watchdog: http://[HOST]:13133/

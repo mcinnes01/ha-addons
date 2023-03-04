@@ -4,7 +4,7 @@ arch:
 - amd64
 description: A scalable storage for prometheus
 homeassistant_api: true
-image: ghcr.io/cedricziel/{arch}-addon-grafana-mimir
+image: ghcr.io/mcinnes01/{arch}-addon-grafana-mimir
 init: false
 map:
 - share:rw
@@ -20,6 +20,6 @@ ports_description:
 schema:
   scrape_ha: bool?
 slug: mimir
-url: https://github.com/cedricziel/ha-addon-grafana-mimir/blob/main/mimir
+url: https://github.com/mcinnes01/ha-addon-grafana-mimir/blob/main/mimir
 version: 1.0.0
 watchdog: http://[HOST]:8001/ready

@@ -2,8 +2,8 @@
 
 ## 🚨 Breaking changes
 
-- Prepare repo-rename @cedricziel (#34)
+- Prepare repo-rename @mcinnes01 (#34)
 
 ## 🧰 Maintenance
 
-- Add deploy workflow @cedricziel (#33)
+- Add deploy workflow @mcinnes01 (#33)

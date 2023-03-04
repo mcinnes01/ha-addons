@@ -1,3 +1,3 @@
 ## What’s changed
 
-- Prepare repo update @cedricziel (#6)
+- Prepare repo update @mcinnes01 (#6)

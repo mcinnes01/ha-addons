@@ -1,3 +1,3 @@
 ## What’s changed
 
-- Prepare moving to outer repo @cedricziel (#13)
+- Prepare moving to outer repo @mcinnes01 (#13)
